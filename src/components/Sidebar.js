@@ -73,8 +73,14 @@ function Sidebar({ isSideBarOpen, setIsSideBarOpen }) {
                       setIsBoardModalOpen(true);
                     }}
                   >
-                    <img src={boardIcon} className="   filter-white  h-4 " />
-                    <p className=" text-lg font-bold  ">Create New Board </p>
+                    {/* <img src={boardIcon} className="   filter-white  h-4 " /> */}
+                    <button
+            className=" button hidden md:block "
+           
+          >
+            + Create New Board
+          </button>
+                    {/* <p className=" text-lg bg-  font-bold  ">+ Create New Board </p> */}
                   </div>
                 </div>
 
