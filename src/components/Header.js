@@ -53,9 +53,9 @@ function Header({ setIsBoardModalOpen, isBoardModalOpen }) {
       <header className=" flex justify-between dark:text-white items-center  ">
         {/* Left Side  */}
         <div className=" flex items-center space-x-2  md:space-x-4">
-          <img src={Logo} alt=" Logo " className=" h-6 w-6" />
+          <img src={Logo} alt=" Logo " className=" h-10 w-10" />
           <h3 className=" md:text-4xl  hidden md:inline-block font-bold  font-sans">
-            kanban
+            ATM.com
           </h3>
           <div className=" flex items-center ">
             <h3 className=" truncate max-w-[200px] md:text-2xl text-xl font-bold md:ml-20 font-sans  ">
